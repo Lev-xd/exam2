@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 800px;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+nav button{
+    background-color: black;
+    width: 156px;
+    height: 41px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    font-weight: 700;
+}
+.level{
+    display: flex;
+    justify-content: center;    
+    gap: 70px;
+    margin-top: 100px;
+}
+.in-level h1{
+    font-family: sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.in-level button{
+    width: 168px;
+    height: 59px;
+    border-radius: 6px;
+    background-color: rgba(26, 171, 123, 1);
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    border: none;
+}
+
+.Web-Designer{
+    font-family: sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color:rgba(242, 244, 246, 1);
+}
+.baner-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.cards{
+    width: 310px;
+    height: 308px;
+    padding: 30px 40px;
+    border-radius: 6px;
+    border: 2px solid rgba(225, 231, 237, 1);
+}
+.cards h2{
+    font-size: 32px;
+    width: 235px;
+    height: 45px;
+    text-align: start;
+}
+.cards p{
+    color: rgba(99, 111, 135, 1);
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 324px;
+    height: 135px;
+    text-align: start;
+    
+}
+.cards h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 108px;
+    height: 28px;
+    text-decoration: underline;
+}
+.box{
+    background-color:rgba(242, 244, 246, 1);
+    width: 390px;
+    height: 308px;
+}
+.cards:hover{
+    background-color: rgba(26, 171, 123, 1);
+}
+.cards:hover h2{
+    color: rgba(255, 255, 255, 1);
+}
+.cards:hover p{
+    color: rgba(255, 255, 255, 1);
+}
+.cards:hover h3{
+    color: rgba(255, 255, 255, 1);
+}
+
+.number h1{
+    text-align: center;
+    font-size: 36px;
+}
+.mars-IT{
+    background-image: url(img/image\ 1\ \(5\).png);
+    height: 75vh;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 30px;
+}
+.in-mars{
+    width: 565px;
+    height: 434px;
+    background-color: rgba(0, 0, 0, 0.722);
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.in-mars p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.in-mars hr{
+    opacity: 40%;
+    width: 464px;
+    
+}
+.in-mars button{
+    width: 218px;
+    height: 59px;
+    background-color: rgba(26, 171, 123, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    margin-left: 180px;
+    margin-top: 35px;
+}
+
+footer{
+    background-color: rgba(16, 16, 16, 1);
+}
+.pixer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 220px;
+}
+.feet{
+    display: flex;
+    gap: 30px;
+}
